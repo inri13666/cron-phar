@@ -1,1 +1,0 @@
-php ./phar-package.php

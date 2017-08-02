@@ -1,1 +1,5 @@
-.idea
+# Compiled files
+build/*
+
+# Reinclude the readme
+!build/readme

@@ -1,5 +1,12 @@
-Based On :
-https://github.com/mtdowling/cron-expression
+# phar-cron-expression
 
-CRON for PHP: Calculate the next or previous run date and determine if a CRON expression is due
-http://mtdowling.com/blog/2012/06/03/cron-expressions-in-php/
+This software is based on [cron-expression](https://github.com/mtdowling/cron-expression) made by [mtdowling](https://github.com/mtdowling).
+
+To compile :
+```
+git submodule init
+php -d phar.readonly=off phar-compile.php
+```
+The new file will be placed in build dir.
+
+*NOTE: It would be great to include this in the main repository.*
